@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#FFFFFF">
+
+<ImageView
+    android:id="@+id/btn_profile"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:src="@drawable/profilepic"
+    android:layout_marginBottom="30dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:contentDescription="Profile Image"
+    />
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:text="SELECT MODE:"
+        android:textStyle="bold"
+        android:fontFamily="@font/anton_regular"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/n_icon"/>
+
+    <Button
+        android:id="@+id/btn_normal_mode"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FAA275"
+        android:fontFamily="@font/anton_regular"
+        android:text="NORMAL MODE"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/c_icon"/>
+
+    <Button
+        android:id="@+id/btn_creative_mode"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FAA275"
+        android:fontFamily="@font/anton_regular"
+        android:text="CREATIVE MODE"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/btn_creative_mode"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:backgroundTint="#FAA275"-->
+<!--        android:text="CREATIVE MODE"-->
+<!--        android:textColor="#FFFFFF" />-->
+
+
+</LinearLayout>

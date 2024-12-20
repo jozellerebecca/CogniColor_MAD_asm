@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:fontFamily="@font/anton_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="FEEDBACK"
+        android:textSize="40dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="150dp"
+        android:src="@drawable/indicator"/>
+
+    <TextView
+        android:fontFamily="@font/anton_regular"
+        android:textSize="23dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indicator Description:"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="13dp"
+        android:fontFamily="@font/anton_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 - 4/10 = Bad Cognitive Skills!"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="13dp"
+        android:fontFamily="@font/anton_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 - 7/10 = Average Cognitive Skills!"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="13dp"
+        android:fontFamily="@font/anton_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8 - /10 = Good Cognitive Skills!"
+        />
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:textSize="27dp"
+        android:fontFamily="@font/anton_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Feedback:"/>
+
+    <TextView
+        android:id="@+id/feedback_rate"
+        android:fontFamily="@font/anton_regular"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0/10"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+    <Button
+        android:id="@+id/btn_return"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textSize="18dp"
+        android:text="RETURN"
+        android:backgroundTint="#FAA275"
+        android:fontFamily="@font/anton_regular"
+        android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:id="@+id/btn_homepage"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:text="HOMEPAGE"
+            android:backgroundTint="#FAA275"
+            android:fontFamily="@font/anton_regular"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome! Sign-in to continue or \nsign-up to begin your journey!"
+        android:textAlignment="center"
+        android:fontFamily="@font/anton_regular"
+        android:textSize="15dp"/>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/anton_regular"
+        android:id="@+id/btn_sign_in"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:text="SIGN IN"
+        android:backgroundTint="#FAA275"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/anton_regular"
+        android:id="@+id/btn_sign_up"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:text="SIGN UP"
+        android:backgroundTint="#FAA275"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"
+        android:textSize="30dp"/>
+
+</LinearLayout>

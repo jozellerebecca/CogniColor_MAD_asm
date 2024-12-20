@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="TEST YOUR COGNITIVE SKILLS"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/anton_regular"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="How to Play?"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/anton_regular"
+        android:layout_marginBottom="12dp"
+         />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/c_instructions1"/>
+
+    <TextView
+        android:fontFamily="@font/anton_regular"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:text="This game mode challenges users to test their cognitive skills and understanding of color theory.
+You are given a blended color and several color options."
+        android:textAlignment="center"
+        android:textSize="12dp"
+        />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/c_instructions2"/>
+
+    <TextView
+        android:fontFamily="@font/anton_regular"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:text="Identify and select the color options that were used to produce the blended score. Once you have
+completed all 10 levels, your score and feedback will be displayed. Have fun!"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FAA275"
+        android:fontFamily="@font/anton_regular"
+        android:text="START!" />
+
+</LinearLayout>

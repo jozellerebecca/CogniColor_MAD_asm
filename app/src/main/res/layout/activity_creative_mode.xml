@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".creativeMode">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/anton_regular"
+        android:text="Level 1"
+        android:textSize="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/anton_regular"
+        android:text="00:00"
+        android:textSize="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:src="@drawable/gamepic1"
+        app:layout_constraintTop_toBottomOf="@id/time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
+
+<!--    correct choice-->
+    <Button
+        android:id="@+id/btn_first_choice"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#0000FF"
+        android:contentDescription="Blue choice button"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp" />
+
+    <!--    correct choice-->
+    <Button
+        android:id="@+id/btn_second_choice"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#B0B0B0"
+        android:contentDescription="Gray choice button"
+        app:layout_constraintTop_toTopOf="@id/btn_first_choice"
+        app:layout_constraintStart_toEndOf="@id/btn_first_choice"
+        android:layout_marginStart="20dp" />
+
+    <!--    correct choice-->
+    <Button
+        android:id="@+id/btn_third_choice"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#800080"
+        android:contentDescription="Purple choice button"
+        app:layout_constraintTop_toTopOf="@id/btn_first_choice"
+        app:layout_constraintStart_toEndOf="@id/btn_second_choice"
+        android:layout_marginStart="20dp" />
+
+    <Button
+        android:id="@+id/btn_fourth_choice"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#c2644f"
+        android:contentDescription="Brown choice button"
+        app:layout_constraintTop_toTopOf="@id/btn_first_choice"
+        app:layout_constraintStart_toEndOf="@id/btn_third_choice"
+        android:layout_marginStart="20dp" />
+
+    <Button
+        android:id="@+id/btn_fifth_choice"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#de65cd"
+        android:contentDescription="Pink choice button"
+        app:layout_constraintTop_toTopOf="@id/btn_first_choice"
+        app:layout_constraintStart_toEndOf="@id/btn_fourth_choice"
+        android:layout_marginStart="20dp" />
+
+    <Button
+        android:id="@+id/btn_next_level"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FAA275"
+        android:fontFamily="@font/anton_regular"
+        android:text="NEXT"
+        android:textSize="17dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_first_choice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
